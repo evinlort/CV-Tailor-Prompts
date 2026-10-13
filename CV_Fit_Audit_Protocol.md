@@ -3,7 +3,7 @@ title: Universal Job-Specific CV Fit Audit Protocol
 version: 4.0
 purpose: Evaluate one candidate against one exact vacancy and prepare an evidence-backed tailored-CV handoff
 required_project_sources:
-  - Master_skills.md
+  - Master_Skills.md
   - General_CV.md
 required_project_document:
   - CV_Fit_Audit_Protocol.md
@@ -30,8 +30,8 @@ This is **an audit and CV-building handoff**, not an instruction to rewrite the 
 
 The user must upload **both** of these exact Markdown files to **Project Sources at project creation**:
 
-1. **`Master_skills.md` (MANDATORY):** the candidate's comprehensive career/skills record. Read all relevant sections, including limits on claimed competence, dates, contribution level, uncertainty, qualifications, work constraints, and any source notes. Use it to discover experience **not necessarily included in the CV**.
-2. **`General_CV.md` (MANDATORY):** the candidate's **existing general CV**, to be reviewed as the present submission baseline. Inspect its actual wording, structure, chronology, priorities, and explicit evidence. This file is required even when `Master_skills.md` contains a complete career history.
+1. **`Master_Skills.md` (MANDATORY):** the candidate's comprehensive career/skills record. Read all relevant sections, including limits on claimed competence, dates, contribution level, uncertainty, qualifications, work constraints, and any source notes. Use it to discover experience **not necessarily included in the CV**.
+2. **`General_CV.md` (MANDATORY):** the candidate's **existing general CV**, to be reviewed as the present submission baseline. Inspect its actual wording, structure, chronology, priorities, and explicit evidence. This file is required even when `Master_Skills.md` contains a complete career history.
 
 `CV_Fit_Audit_Protocol.md` must also be available in Project Sources, and its instructions are to be read along with Project Settings.
 
@@ -39,7 +39,7 @@ The user must upload **both** of these exact Markdown files to **Project Sources
 
 Before **every** new vacancy audit:
 
-- Locate and fully read `Master_skills.md` and `General_CV.md` from the current project's sources. Check the exact filenames (including case) and verify that meaningful contents are actually accessible; merely seeing a filename is insufficient.
+- Locate and fully read `Master_Skills.md` and `General_CV.md` from the current project's sources. Check the exact filenames (including case) and verify that meaningful contents are actually accessible; merely seeing a filename is insufficient.
 - Read this protocol and apply the current Project Instructions language settings.
 - If either mandatory candidate file or this protocol is missing, inaccessible, empty, corrupted, or materially truncated, **STOP**. Name the missing/unreadable file and ask the user to add or replace it in **Project Sources**. Do **not** evaluate the candidate, create scores, treat LinkedIn as a substitute, or invent missing content. Resume only after the files are readable.
 - Do not reuse another person's files, facts from an unrelated chat, or presumed project-owner characteristics.
@@ -58,13 +58,13 @@ The user provides a URL for the **exact advertised position**. The URL may point
 - Candidate's direct answers in this conversation, including corrections and additional details.
 - Other candidate-supplied supporting materials relevant to the specific gap (if the user chooses to provide them).
 
-**These inputs supplement, but never replace, `Master_skills.md` or `General_CV.md`.** Do not demand LinkedIn when both mandatory files are provided. Do not claim to have read a LinkedIn profile that is blocked, private, login-protected, or only partially visible. If LinkedIn matters and cannot be read, ask for pasted relevant sections; never ask for passwords, cookies, or credentials.
+**These inputs supplement, but never replace, `Master_Skills.md` or `General_CV.md`.** Do not demand LinkedIn when both mandatory files are provided. Do not claim to have read a LinkedIn profile that is blocked, private, login-protected, or only partially visible. If LinkedIn matters and cannot be read, ask for pasted relevant sections; never ask for passwords, cookies, or credentials.
 
 ### Evidence hierarchy and conflicts
 
 Use these distinctions, rather than making one source silently override another:
 
-- **Candidate capability:** the documented experience across `Master_skills.md`, `General_CV.md`, and any directly supplied supplemental evidence.
+- **Candidate capability:** the documented experience across `Master_Skills.md`, `General_CV.md`, and any directly supplied supplemental evidence.
 - **Current CV representation:** **only** what `General_CV.md` actually states or clearly demonstrates. Master Skills or LinkedIn information **must not be counted as already present in the CV**.
 - **New clarification:** a direct, explicit candidate answer may resolve or update a fact, but note meaningful conflicts with either mandatory file and ask for correction when material.
 - **Employer requirements:** only the actual vacancy and demonstrably identical official/secondary copies. Never derive employer requirements from candidate descriptions.
@@ -104,7 +104,7 @@ Only mark a requirement as **hard mandatory** when the employer clearly states i
 
 ## 6. Extract evidence from BOTH mandatory files
 
-### A. `Master_skills.md`: full candidate capability inventory
+### A. `Master_Skills.md`: full candidate capability inventory
 
 Read the complete file. Identify source-backed:
 
@@ -129,7 +129,7 @@ Because this source is Markdown, you can assess **text structure and keyword cov
 
 ### C. Optional candidate sources and clarifications
 
-When LinkedIn or other evidence is actually readable, extract role-relevant facts and cite the source section. When an answer expands the skill record, record `Candidate answer — [question/topic]`. Note conflicts instead of silently rewriting history. Where the candidate confirms a fact absent from both files, label it `CANDIDATE CONFIRMED — NOT YET ADDED TO PROJECT SOURCES` and recommend updating `Master_skills.md` or `General_CV.md` as appropriate.
+When LinkedIn or other evidence is actually readable, extract role-relevant facts and cite the source section. When an answer expands the skill record, record `Candidate answer — [question/topic]`. Note conflicts instead of silently rewriting history. Where the candidate confirms a fact absent from both files, label it `CANDIDATE CONFIRMED — NOT YET ADDED TO PROJECT SOURCES` and recommend updating `Master_Skills.md` or `General_CV.md` as appropriate.
 
 ### Evidence levels
 
@@ -142,20 +142,20 @@ For each candidate fact or job requirement, use:
 - `CONFLICTING` — candidate sources disagree on a material fact.
 - `UNKNOWN` — source information is inadequate to judge.
 
-For document evidence, cite `Master_skills.md → [heading / subsection / bullet]` and `General_CV.md → [heading / role / bullet]`, ideally with short quotations or line references where practical. For externally retrieved employer requirements, cite the exact source URL.
+For document evidence, cite `Master_Skills.md → [heading / subsection / bullet]` and `General_CV.md → [heading / role / bullet]`, ideally with short quotations or line references where practical. For externally retrieved employer requirements, cite the exact source URL.
 
 ## 7. Mandatory requirement-by-requirement matrix
 
 Include every `CRITICAL` and `HIGH` requirement, and material `MEDIUM` requirements. Separate person-fit from document-fit **for every row**.
 
-| Employer requirement | Type / importance | Master_skills.md evidence | General_CV.md evidence | LinkedIn / candidate answer | Candidate capability | Current CV visibility | Gap / next action | Job source |
+| Employer requirement | Type / importance | Master_Skills.md evidence | General_CV.md evidence | LinkedIn / candidate answer | Candidate capability | Current CV visibility | Gap / next action | Job source |
 |---|---|---|---|---|---|---|---|---|
 
 **Candidate capability**: `STRONG / PARTIAL / NOT EVIDENCED / CONFIRMED GAP / UNKNOWN / CONFLICTING`.
 
 **Current CV visibility**: `CLEAR / PARTIAL / MISSING / MISLEADING / UNKNOWN`.
 
-**Important:** `MISSING` from `General_CV.md` may be fixable by documenting real skills in `Master_skills.md`. It must never be relabeled as `CONFIRMED GAP`. If a requirement is not evidenced anywhere, do not write a fabricated bullet to make the matrix look complete.
+**Important:** `MISSING` from `General_CV.md` may be fixable by documenting real skills in `Master_Skills.md`. It must never be relabeled as `CONFIRMED GAP`. If a requirement is not evidenced anywhere, do not write a fabricated bullet to make the matrix look complete.
 
 Distinguish:
 
@@ -167,11 +167,11 @@ Distinguish:
 
 ### A. Candidate-to-role fit (capability)
 
-Evaluate how well the candidate's full **documented** skills, projects, experience, credentials, and constraints from `Master_skills.md` plus supporting evidence meet the role. The General CV can also establish facts. **Do not penalize the person's capability merely because relevant experience is absent from the current CV.** Do not assume missing evidence means missing skill.
+Evaluate how well the candidate's full **documented** skills, projects, experience, credentials, and constraints from `Master_Skills.md` plus supporting evidence meet the role. The General CV can also establish facts. **Do not penalize the person's capability merely because relevant experience is absent from the current CV.** Do not assume missing evidence means missing skill.
 
 ### B. Current General CV fit (document)
 
-Evaluate `General_CV.md` **as it presently exists** against the posting. Assess whether the job's most important requirements are explicitly demonstrated and understandable to an initial recruiter and via ordinary text-based ATS keyword matching. Evidence existing only in `Master_skills.md` does **not** improve the current CV's score.
+Evaluate `General_CV.md` **as it presently exists** against the posting. Assess whether the job's most important requirements are explicitly demonstrated and understandable to an initial recruiter and via ordinary text-based ATS keyword matching. Evidence existing only in `Master_Skills.md` does **not** improve the current CV's score.
 
 ### C. Tailored CV potential (truthful achievable presentation)
 
@@ -263,11 +263,11 @@ The builder prompt must contain or explicitly reference:
 - supported employer terminology and where to use it;
 - restrictions against inventing skills, numbers, impact, dates, credentials, leadership, or authorization;
 - instruction to preserve chronology, employer and title accuracy, and contribution scope;
-- instruction to re-read the exact job URL and to use **both** `Master_skills.md` and `General_CV.md` again during CV creation;
+- instruction to re-read the exact job URL and to use **both** `Master_Skills.md` and `General_CV.md` again during CV creation;
 - output target: a **separately requested tailored CV in Markdown**, in `CV_LANGUAGE`;
 - instruction to ask questions where factual answers would change a material claim, and **not** to fill gaps with assumptions.
 
-Include enough extracted, cited facts and decisions for another assistant to understand the intended tailoring. If the new CV-creation environment lacks `Master_skills.md`, `General_CV.md`, or the audit report, the builder must request them and **not** proceed by substituting a summary. If fit is `NOT ELIGIBLE`, `WEAK FIT`, or `UNDETERMINED`, begin the prompt with an explicit `HOLD` decision and the condition that must be resolved before tailoring is recommended.
+Include enough extracted, cited facts and decisions for another assistant to understand the intended tailoring. If the new CV-creation environment lacks `Master_Skills.md`, `General_CV.md`, or the audit report, the builder must request them and **not** proceed by substituting a summary. If fit is `NOT ELIGIBLE`, `WEAK FIT`, or `UNDETERMINED`, begin the prompt with an explicit `HOLD` decision and the condition that must be resolved before tailoring is recommended.
 
 The CV Builder Prompt must **not** contain any reusable sample candidate biography; only actual evidence discovered for the position under review may appear in the generated, candidate-specific report.
 
@@ -276,7 +276,7 @@ The CV Builder Prompt must **not** contain any reusable sample candidate biograp
 ### Sources
 
 - Link employer requirements to the exact job posting and/or verified official same-requisition listing; identify secondary copies and access limitations.
-- Cite `Master_skills.md → heading / bullet` and `General_CV.md → heading / role / bullet` for claims about the candidate and the existing resume. Add LinkedIn section URLs or candidate-answer references only if actually accessed or supplied.
+- Cite `Master_Skills.md → heading / bullet` and `General_CV.md → heading / role / bullet` for claims about the candidate and the existing resume. Add LinkedIn section URLs or candidate-answer references only if actually accessed or supplied.
 - Distinguish `EMPLOYER STATED`, `CANDIDATE DOCUMENTED`, `CANDIDATE CONFIRMED IN CHAT`, `INFERENCE`, and `UNKNOWN`.
 - Do not include unnecessary private contact details or expose another candidate's data.
 
@@ -302,7 +302,7 @@ Follow this structure in the user-selected audit language. Preserve precise empl
 # [Company name] - [Position]
 
 > CV Fit Audit | Checked: YYYY-MM-DD | Posting status: VERIFIED EXACT / PARTIAL / NOT VERIFIED
-> Mandatory project sources: Master_skills.md [READ] | General_CV.md [READ]
+> Mandatory project sources: Master_Skills.md [READ] | General_CV.md [READ]
 > Extra evidence: LinkedIn [READ / PROVIDED / NOT USED] | Candidate clarifications [status]
 
 ## 1. Position and vacancy verification
@@ -321,7 +321,7 @@ Follow this structure in the user-selected audit language. Preserve precise empl
 - Top 1–3 reasons supporting the decision.
 
 ## 3. Requirement-by-requirement evidence matrix
-| Employer requirement | Type / priority | Master_skills.md | General_CV.md | Optional LinkedIn / answer | Candidate capability | Current CV visibility | Gap / action | Employer source |
+| Employer requirement | Type / priority | Master_Skills.md | General_CV.md | Optional LinkedIn / answer | Candidate capability | Current CV visibility | Gap / action | Employer source |
 |---|---|---|---|---|---|---|---|---|
 
 ## 4. Fit scorecard and limitations
@@ -370,12 +370,12 @@ Follow this structure in the user-selected audit language. Preserve precise empl
 
 ## 10. CV BUILDER PROMPT
 [Copy-ready, job-specific instructions in BUILDER_PROMPT_LANGUAGE.]
-[Must require both Master_skills.md and General_CV.md as source files
+[Must require both Master_Skills.md and General_CV.md as source files
 and use this audit as the tailoring specification.]
 
 ## 11. Evidence sources and limitations
 - Vacancy URLs and check date; exact source reliability status.
-- Relevant Master_skills.md and General_CV.md sections.
+- Relevant Master_Skills.md and General_CV.md sections.
 - Supplementary LinkedIn/candidate answers if actually used.
 - Open uncertainties and what cannot be verified.
 ```
@@ -390,7 +390,7 @@ Before sending a report, confirm:
 
 - Both required Markdown files were **provided by the user as Project Sources** and actually read; neither is optional.
 - The URL represents the **specific** position, not a similar role; employer-side sources are cited accurately.
-- `Master_skills.md` informs candidate capabilities; `General_CV.md` is the unchanged-current-CV baseline.
+- `Master_Skills.md` informs candidate capabilities; `General_CV.md` is the unchanged-current-CV baseline.
 - Optional LinkedIn and candidate answers enhance evidence but never replace mandatory files.
 - Missing from CV is not conflated with missing candidate experience; unknown is not called a confirmed gap.
 - The profile, employment, domain, skills, dates, quantitative impact, credentials, and eligibility were not invented.

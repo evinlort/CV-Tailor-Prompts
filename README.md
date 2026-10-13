@@ -5,7 +5,7 @@ Use these prompts to make a CV for a job you want. Start with a job link and you
 There are two steps:
 
 1. **Check the job fit.** Compare the job with your real skills. Save the result as a Fit Audit file.
-2. **Create the CV.** Use the audit and your files to write and check the PDF.
+2. **Create the CV.** Start with `General_CV.md` as your base CV. Use the audit to choose changes. Add relevant facts from `Master_Skills.md`. Save and check the new CV as a PDF.
 
 Start here, then choose one way to work:
 
@@ -19,7 +19,7 @@ Start here, then choose one way to work:
 Have these ready:
 
 - `Master_Skills.md`: your skills, work, projects, and results.
-- `General_CV.md`: your general CV, with your name and work history.
+- `General_CV.md`: your base CV. The app will use it as the starting point for each tailored CV.
 - A link to one job, from LinkedIn, a company website, or a job board.
 
 This guide starts after you have made the two files. If you do not have them, use [Create-Master-Skills-and-General-CV-Markdowns.md](Create-Master-Skills-and-General-CV-Markdowns.md) first.
@@ -28,14 +28,7 @@ Keep your personal files in a private folder. Do not add them to this prompt rep
 
 ### Check the skills filename
 
-The prompts use two names for the same skills file:
-
-| Step | Required name |
-| --- | --- |
-| Check the job fit | `Master_skills.md` |
-| Create the CV | `Master_Skills.md` |
-
-The small `s` and capital `S` matter. Make a copy for the audit and call it `Master_skills.md`. Keep the same text in both copies. Store them in separate folders or projects.
+Use `Master_Skills.md` for both the job fit check and CV creation. Keep the spelling and capital letters exactly as shown. Use the same file in both projects.
 
 ### Set your name and languages
 
@@ -49,6 +42,12 @@ At the top:
 4. Save the file with the same filename.
 
 Use this edited copy in the steps below.
+
+### How the files work together
+
+Start with `General_CV.md`. Keep your correct name, contact details, work history, dates, and education. Change the summary, skills, and work descriptions to fit the job. Use `Master_Skills.md` for more facts about your real work. Use the Fit Audit to decide which facts matter for this job.
+
+Save the tailored CV as a new file. Keep `General_CV.md` for the next job.
 
 ## Choose a model and effort
 
@@ -91,7 +90,7 @@ Copy all the text from [CV-FIT-AUDIT-Project-Instructions.md](CV-FIT-AUDIT-Proje
 Add these three files to the project:
 
 - [CV_Fit_Audit_Protocol.md](CV_Fit_Audit_Protocol.md)
-- Your `Master_skills.md`
+- Your `Master_Skills.md`
 - Your `General_CV.md`
 
 The instruction text goes in the settings. The three files go in the file area.
@@ -106,7 +105,7 @@ Paste this message. Replace `[JOB LINK]` with the real link:
 Check my fit for this job: [JOB LINK]
 
 Read the project instructions, CV_Fit_Audit_Protocol.md,
-Master_skills.md, and General_CV.md in full.
+Master_Skills.md, and General_CV.md in full.
 If a required file is missing or cannot be read, stop and tell me.
 Use simple English for your questions and report.
 Ask no more than three questions at a time.
@@ -150,7 +149,7 @@ Copy all the text from [CV_TAILOR-Project-Instructions.md](CV_TAILOR-Project-Ins
 Add these files to the project:
 
 - Your edited `MASTER_PROMPT_CV_Tailoring_From_Fit_Audit.md`
-- Your `Master_Skills.md`, with a capital `S`
+- Your `Master_Skills.md`
 - Your `General_CV.md`
 
 Use a mode that can create files and run code to check a PDF. [ChatGPT Work can create PDFs](https://learn.chatgpt.com/docs/web). In Claude, enable file creation and code execution if your account offers them.
@@ -162,17 +161,19 @@ Start a new chat inside **CV TAILOR**. Attach the full audit from step 3. Do not
 Paste this message:
 
 ```text
-Create my CV for the job in the attached Fit Audit.
+Use General_CV.md as the base CV. Tailor it for the job
+in the attached Fit Audit.
 
 Read the project instructions, the full master prompt,
 Master_Skills.md, General_CV.md, and the attached audit.
 If a required file is missing or cannot be read, stop and tell me.
 
 Use the audit for the job details and suggested changes.
+Keep the correct personal details and work history from General_CV.md.
+Use Master_Skills.md to add relevant, supported facts.
+Save the tailored CV as a new file. Do not change General_CV.md.
 Use the tailoring master prompt for the final output: a real PDF.
 If the audit asks for Markdown, follow the PDF rule for this step.
-In the audit, Master_skills.md means the same skills file
-uploaded here as Master_Skills.md.
 
 Use my configured name and language line.
 Write the CV in natural, professional English.
@@ -222,7 +223,7 @@ cv-work/
   audit/
     CV-FIT-AUDIT-Project-Instructions.md
     CV_Fit_Audit_Protocol.md
-    Master_skills.md
+    Master_Skills.md
     General_CV.md
   tailor/
     CV_TAILOR-Project-Instructions.md
@@ -262,7 +263,7 @@ Check my fit for this job: [JOB LINK]
 Read and follow audit/CV-FIT-AUDIT-Project-Instructions.md
 and audit/CV_Fit_Audit_Protocol.md.
 For this local task, use the files in audit/ as Project Sources.
-Read audit/Master_skills.md and audit/General_CV.md in full.
+Read audit/Master_Skills.md and audit/General_CV.md in full.
 If a required file cannot be read, stop and name it.
 If you cannot read the exact job page, ask me for its full text.
 Use simple English. Ask no more than three questions at a time.
@@ -282,16 +283,20 @@ Answer the questions. Open the saved audit and check it as in step 3 of the chat
 Start a new agent session in the same `cv-work` folder. Replace `[AUDIT FILE]` below with the exact saved filename:
 
 ```text
-Create my tailored CV from output/[AUDIT FILE].
+Use tailor/General_CV.md as the base CV. Tailor it for the job
+in output/[AUDIT FILE].
 
 Read and follow tailor/CV_TAILOR-Project-Instructions.md
 and tailor/MASTER_PROMPT_CV_Tailoring_From_Fit_Audit.md.
 For this local task, use the files in tailor/ as Project Sources.
 Read tailor/General_CV.md, tailor/Master_Skills.md,
 and the full audit. Stop if a required file cannot be read.
-The audit's Master_skills.md is the same source as
-tailor/Master_Skills.md. Use the tailoring master prompt's
-PDF output rule, even if the audit asks for Markdown.
+Keep the correct personal details and work history from General_CV.md.
+Use Master_Skills.md to add relevant, supported facts.
+Use the audit for the job details and suggested changes.
+Save the tailored CV as a new file. Do not change General_CV.md.
+Use the tailoring master prompt's PDF output rule,
+even if the audit asks for Markdown.
 
 Use my configured name and language line.
 Do not invent facts or change my source files.
