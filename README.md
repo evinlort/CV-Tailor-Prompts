@@ -57,10 +57,13 @@ These are suggested starting points for this workflow, checked on **14 October 2
 
 | Tool | Suggested model | Effort |
 | --- | --- | --- |
+| ChatGPT, in Chat mode | An available model with thinking and file tools. | Start with the default; increase thinking time for the audit and final CV checks if offered. |
 | ChatGPT, in Work mode | GPT-6.1 Sol | Medium; use High if the files are long or facts disagree. |
 | Claude | Sonnet 5.5 | High for the audit and final CV checks. |
 | Codex | GPT-6.1 Sol | High for reading files, making the PDF, and checking it. |
 | Claude Code | Sonnet 5.5 | High for the same steps. |
+
+In ChatGPT Chat mode, use the model picker if your account offers one. Choose a model with thinking and file tools, and adjust its thinking time if that control is available. Model names and controls vary by account; the Work settings below do not necessarily apply. Use Chat for questions, comparing the job with your experience, and revising CV text. For creating and checking the finished PDF, switch to Work. See [Chat and Work guidance](https://learn.chatgpt.com/docs/use-chatgpt).
 
 In ChatGPT Work, open the model control below the message box. Use **Advanced** if needed. GPT-6.1 Sol is available in Work and Codex, not ordinary Chat mode. In Codex CLI, use `/model` to choose the model and effort. See the [OpenAI model guide](https://learn.chatgpt.com/docs/models).
 
