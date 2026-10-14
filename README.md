@@ -77,6 +77,8 @@ If these models are missing, use an available model with thinking and file tools
 
 Set up two projects once. Then use a new chat in each project for each job.
 
+Once the project instructions and required files are in place, send **only the job URL** in a new **CV FIT AUDIT** chat, or attach **only the full Fit Audit document** in a new **CV TAILOR** chat. No extra prompt text is required. The example messages below are optional.
+
 ### 1. Create the audit project
 
 In your chosen app, create a private project called **CV FIT AUDIT**.
@@ -102,7 +104,7 @@ The instruction text goes in the settings. The three files go in the file area.
 
 Start a new chat inside **CV FIT AUDIT**. Choose the model and effort above. Allow web access if the app asks for it.
 
-Paste this message. Replace `[JOB LINK]` with the real link:
+Send only the job URL to start the audit. If you prefer a fuller message, use this optional example and replace `[JOB LINK]` with the real link:
 
 ```text
 Check my fit for this job: [JOB LINK]
@@ -161,7 +163,7 @@ Use a mode that can create files and run code to check a PDF. [ChatGPT Work can 
 
 Start a new chat inside **CV TAILOR**. Attach the full audit from step 3. Do not attach only its summary.
 
-Paste this message:
+The full Fit Audit attachment is enough to start tailoring; no accompanying message is required. If you prefer, add this optional message:
 
 ```text
 Use General_CV.md as the base CV. Tailor it for the job
